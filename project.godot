@@ -24,7 +24,7 @@ XRToolsRumbleManager="*uid://by853dk86g1qw"
 
 [editor_plugins]
 
-enabled=PackedStringArray()
+enabled=PackedStringArray("res://addons/godot-xr-tools/plugin.cfg")
 
 [filesystem]
 

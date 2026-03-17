@@ -8,8 +8,6 @@
 [ext_resource type="PackedScene" uid="uid://bl2nuu3qhlb5k" path="res://addons/godot-xr-tools/functions/movement_direct.tscn" id="5_nvl01"]
 [ext_resource type="PackedScene" uid="uid://diyu06cw06syv" path="res://addons/godot-xr-tools/player/player_body.tscn" id="6_1jxqw"]
 [ext_resource type="PackedScene" uid="uid://b4ysuy43poobf" path="res://addons/godot-xr-tools/functions/function_pickup.tscn" id="6_ivps1"]
-[ext_resource type="Script" uid="uid://blaa027erhjlp" path="res://addons/godot-xr-tools/functions/function_teleport.gd" id="7_ivps1"]
-[ext_resource type="Material" path="res://addons/godot-xr-tools/materials/capsule.tres" id="8_bwjto"]
 [ext_resource type="PackedScene" uid="uid://b6bk2pj8vbj28" path="res://addons/godot-xr-tools/functions/movement_turn.tscn" id="8_urp6f"]
 [ext_resource type="PackedScene" uid="uid://c2q5phg8w08o" path="res://addons/godot-xr-tools/functions/movement_jump.tscn" id="9_bwjto"]
 
@@ -31,13 +29,6 @@ tracker = &"left_hand"
 strafe = true
 
 [node name="FunctionPickup" parent="XRController3D_L" unique_id=222150531 instance=ExtResource("6_ivps1")]
-
-[node name="XRToolsFunctionTeleport" type="Node3D" parent="XRController3D_L" unique_id=456067266]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.1)
-script = ExtResource("7_ivps1")
-teleport_button_action = "ax_button"
-player_material = ExtResource("8_bwjto")
-metadata/_custom_type_script = "uid://blaa027erhjlp"
 
 [node name="XRController3D_R" type="XRController3D" parent="." unique_id=1601531106]
 tracker = &"right_hand"
