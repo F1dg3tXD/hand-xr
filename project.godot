@@ -12,15 +12,15 @@ config_version=5
 
 config/name="TimeLine"
 config/description="Record, Rewind, Act, Play"
-run/main_scene="uid://y6ucboweqfcp"
+run/main_scene="uid://c6qf1idpkt4fq"
 config/features=PackedStringArray("4.6", "Mobile")
 boot_splash/image="uid://ddfjhxtvykcow"
 config/icon="res://icon.svg"
 
 [autoload]
 
-XRToolsUserSettings="*uid://bqgb8i74tm0t"
-XRToolsRumbleManager="*uid://by853dk86g1qw"
+XRToolsUserSettings="*uid://btr5p3u3htq6x"
+XRToolsRumbleManager="*uid://b5egwr1tdei3t"
 
 [editor_plugins]
 

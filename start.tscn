@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c6qf1idpkt4fq"]
+
+[ext_resource type="PackedScene" uid="uid://bnqnnnet4dw12" path="res://addons/godot-xr-tools/staging/staging.tscn" id="1_ots34"]
+
+[node name="start" type="Node3D" unique_id=1794244545]
+
+[node name="Staging" parent="." unique_id=1900459293 instance=ExtResource("1_ots34")]
+main_scene = "uid://y6ucboweqfcp"
+
+[editable path="Staging"]
+[editable path="Staging/LoadingScreen"]
